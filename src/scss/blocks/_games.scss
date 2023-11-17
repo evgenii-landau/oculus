@@ -1,0 +1,70 @@
+.games {
+
+	&__title {
+		margin-bottom: 50px;
+	}
+
+	&__content {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	&__info {
+		padding-right: 10px;
+	}
+
+	&__text {
+		margin-bottom: 10px;
+	}
+
+	&__description {
+		margin-bottom: 30px;
+	}
+
+	&__link {
+		display: inline-block;
+		padding: 16px 48px;
+		width: 230px;
+		text-align: center;
+
+		font-size: 16px;
+		font-weight: 700;
+
+		border: 2px solid #BC10D8;
+	}
+}
+
+.text-style {
+
+}
+
+.card {
+	padding: 17px;
+	display: flex;
+	flex-direction: column;
+
+	border: 1px solid #BC10D8;
+
+	img {
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		margin-bottom: 10px;
+		color: var(--accent);
+		font-size: 23px;
+	}
+
+	&__description {
+		margin-bottom: 40px;
+		font-size: 16px;
+	}
+
+	&__link {
+		margin-top: auto;
+		font-size: 16px;
+		text-transform: lowercase;
+	}
+}
+
+

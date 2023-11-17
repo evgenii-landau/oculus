@@ -1,0 +1,57 @@
+.header {
+	border-bottom: 1px solid #CACAD6;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: center;
+	height: 80px;
+}
+
+.menu {
+	display: flex;
+	gap: 0 20px;
+
+		&__list {
+
+		}
+
+		&__link {
+			font-size: 16px;
+
+			transition: opacity 0.2s ease-in;
+			color: var(--text-color);
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+
+}
+
+.logo {
+	justify-self: center;
+}
+
+.basket {
+	position: relative;
+	justify-self: end;
+}
+
+.basket--on span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	bottom: -4px;
+	right: -2px;
+
+	font-size: 11px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: black;
+	color: #fff;
+}

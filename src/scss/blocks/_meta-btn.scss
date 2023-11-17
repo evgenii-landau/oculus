@@ -1,0 +1,21 @@
+.buy-btn {
+	display: flex;
+	transition: opacity 0.2s ease-in;
+	border: 1px solid var(--gradient, #BC10D8);
+
+	&__text, &__price {
+		padding: 21px 111px;
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	&__text {
+		color: #F6F4F5;
+		background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+	}
+}
+
+.buy-btn:hover {
+	opacity: 0.8;
+}

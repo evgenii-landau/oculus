@@ -1,0 +1,39 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	padding-top: 19%;
+	font-size: 96px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	flex-basis: 300px;
+	padding-right: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.text-style {
+	font-size: 36px;
+	text-transform: uppercase;
+
+	background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,44 @@
+.tabs {
+	display: grid;
+	grid-template-columns: 300px auto;
+
+	&__content-img {
+		grid-row: 1 / -1;
+		align-self: stretch;
+	}
+
+	&__content-box {
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+.video {
+	grid-column: 2 / 3;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: flex-start;
+
+	padding: 9px 10px;
+	width: 280px;
+	height: 150px;
+
+	background-image: url('./../img/product/content-bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	span {
+		padding: 9px 0;
+		font-size: 13px;
+		color: #F6F4F5;
+	}
+
+	img {
+		margin-left: 22px;
+	}
+}
