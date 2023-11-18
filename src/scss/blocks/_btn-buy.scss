@@ -1,9 +1,10 @@
-.buy-btn {
+.btn-buy {
 	display: flex;
 	transition: opacity 0.2s ease-in;
 	border: 1px solid var(--gradient, #BC10D8);
 
-	&__text, &__price {
+	&__text, 
+	&__price {
 		padding: 21px 111px;
 		font-size: 16px;
 		font-weight: 700;
@@ -16,6 +17,8 @@
 	}
 }
 
-.buy-btn:hover {
+.btn-buy:hover {
 	opacity: 0.8;
 }
+
+

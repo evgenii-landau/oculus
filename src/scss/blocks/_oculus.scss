@@ -1,0 +1,42 @@
+.oculus {
+	position: relative;
+	overflow-x: hidden;
+	margin-bottom: 110px;
+	text-align: center;
+
+	&__bg-title {
+		position: absolute;
+		z-index: -1;
+
+		line-height: 400px;
+		font-size: 400px;
+		text-transform: uppercase;
+		font-weight: 700;
+		opacity: 0.1;
+		background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+		animation: line-text 6s linear 1s infinite;
+	}
+
+	&__img {
+		margin-bottom: 30px;
+	}
+	
+	&__btn {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+}
+
+@keyframes line-text {
+	from {
+		transform: translateX(115%);
+	}
+	to {
+		transform: translateX(-115%);
+		transform-origin: right center;
+	}
+}

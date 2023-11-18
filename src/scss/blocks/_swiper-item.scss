@@ -1,0 +1,50 @@
+.swiper {
+
+	&__img {
+		max-height: 280px;
+		max-width: 260px;
+		margin-bottom: 10px;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 20px;
+
+		border: 1px solid #BC10D8;
+	}
+
+	&__title {
+		min-height: 55px;
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: var(--accent);
+	}
+
+	&__description {
+		margin-top: auto;
+		margin-bottom: 42px;
+	}
+
+	&__price {
+		margin-top: auto;
+		margin-bottom: 20px;
+
+		color: var(--accent);
+		font-weight: 700;
+	}
+
+	&__btn {
+		width: 100%;
+		padding: 6px;
+		font-weight: 700;
+
+		background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-transform: uppercase;
+		border: 1px solid #BC10D8;		
+	}
+}

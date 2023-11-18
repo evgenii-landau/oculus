@@ -1,4 +1,5 @@
 .games {
+	padding-bottom: 100px;
 
 	&__title {
 		margin-bottom: 50px;
@@ -31,6 +32,11 @@
 		font-weight: 700;
 
 		border: 2px solid #BC10D8;
+
+		&:hover {
+			opacity: 0.8;
+			color: red;
+		}
 	}
 }
 
