@@ -3,3 +3,8 @@
 
 import choseTabs from './modules/tabs.js';
 choseTabs();
+
+import swiperFunc from './modules/swiper.js'
+swiperFunc();
+
+

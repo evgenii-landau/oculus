@@ -4,15 +4,19 @@
 		max-height: 280px;
 		max-width: 260px;
 		margin-bottom: 10px;
+
+		border-radius: 5px;
 	}
 
 	&__item {
+		max-width: 300px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		padding: 20px;
 
 		border: 1px solid #BC10D8;
+		border-radius: 10px;
 	}
 
 	&__title {
