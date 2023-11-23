@@ -14,6 +14,22 @@ h1 {
 	padding-top: 19%;
 	font-size: 96px;
 	margin-bottom: 10px;
+
+	@include mediaTablet {
+		font-size: 85px;
+	}
+
+	@include mediaMobileS {
+		font-size: 70px;
+	}
+
+	@include mediaMobile {
+		font-size: 66px;
+	}
+
+	@include mediaMobileL {
+		font-size: 55px;
+	}
 }
 
 h2 {
@@ -21,6 +37,10 @@ h2 {
 	text-transform: uppercase;
 	flex-basis: 300px;
 	padding-right: 20px;
+
+	@include mediaMobile() {
+		flex-basis: 190px;
+	}
 }
 
 h3 {
@@ -37,3 +57,4 @@ h3 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+

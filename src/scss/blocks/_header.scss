@@ -4,7 +4,7 @@
 
 .nav {
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: fit-content(375px) 2fr 1fr;
 	align-items: center;
 	height: 80px;
 }

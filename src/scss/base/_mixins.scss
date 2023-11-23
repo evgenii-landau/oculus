@@ -1,0 +1,41 @@
+@mixin mediaLaptop() {
+	@media (max-width: 1439px) {
+		@content;
+	}
+}
+
+@mixin mediaLaptopS() {
+	@media (max-width: 1229px) {
+		@content;
+	}
+}
+
+@mixin mediaTablet() {
+	@media (max-width: 1023px) {
+		@content;
+	}
+}
+
+@mixin mediaMobile() {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin mediaMobileS() {
+	@media (max-width: 639px) {
+		@content;
+	}
+}
+
+@mixin mediaMobileL() {
+	@media (max-width: 424px) {
+		@content;
+	}
+}
+
+@mixin mediaMobileM() {
+	@media (max-width: 374px) {
+		@content;
+	}
+}

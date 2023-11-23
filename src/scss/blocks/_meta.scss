@@ -5,14 +5,30 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 
+	@include mediaTablet {
+		text-align: center;
+	}
+
 	&__subtitle {
 		font-size: 36px;
 		margin-bottom: 5px;
+
+		@include mediaMobile {
+			font-size: 24px;
+		}
 	}
 
 	&__text {
 		font-size: 13px;
 		margin-bottom: 50px;
+
+		@include mediaTablet {
+			margin-bottom: 30px;
+		}
+
+		@include mediaMobile() {
+			margin-bottom: 25px;
+		}
 	}
 }
 
@@ -20,6 +36,7 @@
 	font-size: 13px;
 	padding-top: 6px;
 }
+
 
 
 

@@ -3,6 +3,10 @@
 	transition: opacity 0.2s ease-in;
 	border: 1px solid var(--gradient, #BC10D8);
 
+	@include mediaMobileS {
+		flex-direction: column;
+	}
+
 	&__text, 
 	&__price {
 		padding: 21px 111px;
@@ -14,6 +18,19 @@
 	&__text {
 		color: #F6F4F5;
 		background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+
+		@include mediaMobileS {
+			width: 100%;
+		}
+	}
+
+	@include mediaTablet {
+		margin: 0 auto;
+	}
+
+	@include mediaMobileL {
+		width: 100%;
+		align-items: center;
 	}
 }
 
