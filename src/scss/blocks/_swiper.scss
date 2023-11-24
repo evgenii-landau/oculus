@@ -1,11 +1,20 @@
-.swiper-container-style {
-	max-width: 1200px;
-}
+.swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+ }
+ .swiper-wrapper {
+	max-width: 300px;
+ }
 
-.swiper-wrapper-style {
-}
-
-.swiper-slide-style {
+ .swiper-slide {
+	background-position: center;
+	background-size: cover;
 	width: 300px;
-}
+	height: 300px;
+ }
 
+ .swiper-slide img {
+	display: block;
+	width: 100%;
+ }

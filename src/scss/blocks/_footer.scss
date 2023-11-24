@@ -13,10 +13,30 @@
 	}
 }
 
+.nav-footer {
+	display: grid;
+	grid-template-columns: fit-content(375px) 2fr 1fr;
+	align-items: center;
+	height: 80px;
+
+	@include mediaMobile() {
+		grid-template-columns: 2fr 1fr;
+	}
+
+	@include mediaMobileL() {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}
+
 .social {
 	display: flex;
 	gap: 20px;
 	justify-self: end;
+
+	@include mediaMobileL() {
+		justify-self: auto;
+	}
 
 	&__item {}
 

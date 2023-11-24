@@ -1,30 +1,28 @@
 import Swiper from 'swiper/bundle';
-import 'swiper/swiper-bundle.css';
+import 'swiper/css/bundle';
 
 
 function swiperFunc () {
-	const swiper = new Swiper('.swiper-container', {
+	const swiper = new Swiper('.swiper', {
 		effect: "coverflow",
-			grabCursor: true,
-			slidesPerView: 3,
-			coverflowEffect: {
-				rotate: -5,
-				stretch: 0,
-				depth: 100,
-				modifier: 1,
-				slideShadows: false,
-			},
-			initialSlide: 2,
-			mousewheel: {
-				//Чувствительность колеса
-				sensitivity: 10,
-				// Класс объекта на котором
-				// будет срабатывать прокрута мышью
-				// Если свайперы с одним классом можно убрать
-				eventsTarget: '.swiper-container',
-			},
-	
-		});
+		slidesPerView: 1,
+		spaceBetween: 40,
+		mousewheel: {
+			sensitibity: 10,
+			eventsTarget: '.swiper'
+		},
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+      //   slideShadows: true,
+      },
+		initialSlide: 1,
+	});
 }
 
 export default swiperFunc

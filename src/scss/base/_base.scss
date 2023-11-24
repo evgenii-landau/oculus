@@ -56,5 +56,9 @@ h3 {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
+	@include mediaMobile() {
+		font-size: 25px;
+	}
 }
 

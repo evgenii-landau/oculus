@@ -12,6 +12,13 @@
 	&__subtitle {
 		margin-bottom: 30px;
 	}
+
+	&__title,
+	&__subtitle {
+		@include mediaTablet() {
+			text-align: center;
+		}
+	}
 }
 
 .text-style {
