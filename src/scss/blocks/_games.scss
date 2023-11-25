@@ -1,14 +1,6 @@
 .games {
 	margin-bottom: 100px;
 
-	@include mediaMobileS() {
-		padding-top: 30%;
-	}
-
-	@include mediaMobileL() {
-		padding-top: 100px;
-	}
-
 	&__title {
 		margin-bottom: 50px;
 		@include mediaLaptopS() {
